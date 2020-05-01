@@ -1,6 +1,3 @@
-#!/bin/env python3
-# code by : youtube.com/theunknon
-
 """
 
 you can re run setup.py 
