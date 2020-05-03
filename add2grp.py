@@ -20,7 +20,7 @@ def banner():
 {re} ║ {cy}├┤ │  ├┤ {re}║ ╦  ╚═╗{cy}│  ├┬┘├─┤├─┘├┤ ├┬┘
 {re} ╩ {cy}└─┘┴─┘└─┘{re}╚═╝  ╚═╝{cy}└─┘┴└─┴ ┴┴  └─┘┴└─
             version : 1.0
-        youtube.com/theunknon
+        youtube.com/anuuu279
         """)
 
 cpass = configparser.RawConfigParser()
@@ -61,7 +61,7 @@ with open(input_file, encoding='UTF-8') as f:
 
 chats = []
 last_date = None
-chunk_size = 200
+chunk_size = 2000000
 groups=[]
 
 result = client(GetDialogsRequest(
