@@ -61,7 +61,7 @@ with open(input_file, encoding='UTF-8') as f:
 
 chats = []
 last_date = None
-chunk_size = 2000000
+chunk_size = 20
 groups=[]
 
 result = client(GetDialogsRequest(
@@ -97,7 +97,7 @@ n = 0
 
 for user in users:
     n += 1
-    if n % 500 == 0:
+    if n % 50 == 0:
 	    time.sleep(1)
 	    try:
 	        print ("Adding {}".format(user['id']))
